@@ -1,0 +1,339 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - c07c1086882a7bcae137810da574e69379bf2af7",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 229419,
+            "type": "VEC3",
+            "max": [
+                0.003173879813402891,
+                0.022199999541044236,
+                0.02138000912964344
+            ],
+            "min": [
+                -0.02138000912964344,
+                -0.022199999541044236,
+                -0.02138000912964344
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 229419,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 229419,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 1002087,
+            "type": "SCALAR",
+            "max": [
+                229418.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 1769665,
+            "type": "VEC3",
+            "max": [
+                1.4562749862670899,
+                1.4596612453460694,
+                1.8428515195846558
+            ],
+            "min": [
+                -1.4564216136932374,
+                -1.459862470626831,
+                -1.892092227935791
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 1769665,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 1769665,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 7392318,
+            "type": "SCALAR",
+            "max": [
+                1769664.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 2753028,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2753028,
+            "byteLength": 2753028,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5506056,
+            "byteLength": 1835352,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7341408,
+            "byteLength": 4008348,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 11349756,
+            "byteLength": 21235980,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 32585736,
+            "byteLength": 21235980,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 53821716,
+            "byteLength": 14157320,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 67979036,
+            "byteLength": 29569272,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 97548308,
+            "uri": "Mastu_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000014207521417120006,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "base_opacity",
+            "uri": "Mastu_images/base_opacity.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "texture9980",
+            "uri": "Mastu_images/texture9980.jpg",
+            "mimeType": "image/jpeg"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.03688954934477806,
+                    0.03688954934477806,
+                    0.03688954934477806,
+                    1.0
+                ],
+                "metallicFactor": 0.25,
+                "roughnessFactor": 0.25
+            },
+            "name": "Metal 2",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            },
+            "emissiveTexture": {
+                "index": 1
+            },
+            "emissiveFactor": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "alphaMode": "BLEND",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "model",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "mesh0 3",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5037266612052918,
+                0.49980002641677859,
+                0.5
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3
+            ],
+            "translation": [
+                0.03726663440465927,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                10.0,
+                10.0,
+                10.0
+            ],
+            "name": "Group"
+        },
+        {
+            "translation": [
+                0.0,
+                0.022199999541044236,
+                0.0
+            ],
+            "mesh": 0,
+            "name": "model"
+        },
+        {
+            "children": [
+                4
+            ],
+            "translation": [
+                -0.0000726136495359242,
+                0.02223668061196804,
+                -9.701958560981439e-7
+            ],
+            "rotation": [
+                -0.7071067690849304,
+                6.181722511655608e-8,
+                8.365743773446673e-15,
+                0.7071068286895752
+            ],
+            "scale": [
+                0.00961308553814888,
+                0.00961308367550373,
+                0.00961308367550373
+            ],
+            "name": "plasma-multi-contour-reduced 2"
+        },
+        {
+            "children": [
+                5
+            ],
+            "name": "Renderer Node"
+        },
+        {
+            "mesh": 1,
+            "name": "mesh0 3"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "base_opacity",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "texture9980",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0
+}
