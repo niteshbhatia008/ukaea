@@ -79,7 +79,7 @@
         <h3><b>UKAEA AR 3D Model Viewer</b></h3>
 		
         <model-viewer id="model-viewer" 
-        src="assets/models/Mastu.gltf" 
+        src="assets/models/Mastu.glb" 
         ios-src="assets/models/Mastu.usdz" 
         autoplay 
         ar camera-controls 
@@ -130,7 +130,7 @@
             var selectedValue = selectBox.options[selectBox.selectedIndex].value;
             var modelViewer = document.querySelector("model-viewer")
             const base = "assets/models/" + selectedValue;
-            modelViewer.src = base + '.gltf';
+            modelViewer.src = base + '.glb';
             modelViewer.iosSrc = base + '.usdz';
         }
 
